@@ -2,6 +2,11 @@ body{
 font-family: 'Nunito', sans-serif;
 }
 
+.header {
+    min-height: 800px;
+    margin-bottom: 120px;
+}
+
 .nav-link.active {
     color: #daa520 !important;
   }
@@ -22,4 +27,17 @@ font-family: 'Nunito', sans-serif;
     height: 550px;
     display: flex;
     align-items: center;
+  }
+
+  .woodies-text-center {
+    display: flex;
+    align-items: center;
+  }
+  .woodies h3 {
+    color: #3e3f43;
+    font-size: 2.25rem;
+  }
+  .woodies p {
+    font-size: 1.5rem;
+    font-weight: 600;
   }
