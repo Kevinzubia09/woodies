@@ -36,3 +36,19 @@ body {
   font-size: 1.5rem;
   font-weight: 600;
 }
+.incono {
+  width: 30px;
+  height: 40px;
+  background: url(../img/incono.jpg);
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+.incono h3 {
+  color: 3E3F43;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+.incono h1 {
+  color: 222222;
+font-size: 4.5rem;
+}
