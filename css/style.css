@@ -52,3 +52,15 @@ body {
   color: 222222;
 font-size: 4.5rem;
 }
+
+.header-sartenes {
+  height: 50%;
+  width: 384px;
+  background: url(../img/header-sartenes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
