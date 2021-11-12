@@ -69,11 +69,198 @@ font-size: 4.5rem;
 }
 
 #galeria-works .col-lg-3{
+  display: flex;
   margin: 0 !important;
   padding: 25px;
 }
 
 #galeria-works img {
+  display: flex;
   width: 120px;
   height: 120px
+}
+
+.rectangle-pink1 {
+  background: url(../img/rectangle-pink.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.desk {
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  padding: auto;
+  height: 224px;
+  width: 246px;
+  top: 122px;
+  position: absolute;
+}
+
+#galeria-categories .col-lg-4 {
+  display: flex;
+  margin: 0 !important;
+  padding: 25px;
+}
+
+.encabezado-desk {
+  position: absolute;
+  display: flex;
+  top: 44px;
+  left: 110 px;
+}
+
+.button-desk {
+  position: absolute;
+  display: flex;
+  top: 370px;
+  padding-left: 165px;
+}
+
+.rectangle-yellow1 {
+  background: url(../img/Rectangle-yellow.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 56px;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.chair {
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  height: 235px;
+  width: 165.25px;
+  top: 122px;
+  padding-left: 35px;
+  position: absolute;
+}
+
+.encabezado-chair {
+  position: absolute;
+  display: flex;
+  top: 44px;
+  left: 110 px;
+}
+
+.button-chair {
+  position: absolute;
+  display: flex;
+  top: 370px;
+  padding-left: 165px;
+}
+
+.rectangle-blue {
+  background: url(../img/Rectangle-blue.png);
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 56px;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.kitchenware {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 200px;
+  width: 181.01px;
+  top: 122px;
+  padding-left: 35px;
+  position: absolute;
+}
+
+.encabezado-kitchenware {
+  position: absolute;
+  display: flex;
+  top: 44px;
+  left: 110 px;
+}
+
+.button-kitchenware {
+  display: flex;
+  position: absolute;
+  top: 370px;
+  padding-left: 165px;
+}
+
+.rectangle-pink2 {
+  background: url(../img/rectangle-pink.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 400px;
+  width: 280px;
+  padding: 25px;
+  left: 0%;
+  top: 0;
+}
+
+.book-shelf {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 235px;
+  width: 148.82px;
+  top: 550px;
+  padding-left: 45px;
+  position: absolute;
+}
+
+.encabezado-book-shelf {
+  position: absolute;
+  display: flex;
+  top: 500px;
+  left: 150 px;
+}
+
+.button-book-shelf {
+  position: absolute;
+  display: flex;
+  top: 825px;
+  padding-left: 165px;
+}
+
+.electronics {
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  height: 139.12px;
+  width: 235px;
+  top: 600px;
+  padding-left: 35px;
+  position: absolute;
+}
+
+.encabezado-electronics {
+  position: absolute;
+  display: flex;
+  top: 500px;
+  left: 110 px;
+}
+
+.button-electronics {
+  position: absolute;
+  display: flex;
+  top: 825px;
+  padding-left: 165px;
 }
