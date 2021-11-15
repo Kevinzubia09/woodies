@@ -6,8 +6,8 @@ body {
   margin-bottom: 120px;
 }
 .header-table {
-  width: 50%;
-  height: 800px;
+  min-width: 630px;
+  min-height: 800px;
   background: url(../img/header-table.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,6 +24,12 @@ body {
 .nav-link.active {
   color: #daa520 !important;
 }
+
+.text-sartenes {
+  position: relative;
+  top: -263px
+}
+
 .woodies-text-center {
   display: flex;
   align-items: center;
@@ -52,10 +58,13 @@ body {
 font-size: 4.5rem;
 }
 
+
 .header-sartenes {
   background: url(../img/header-sartenes.jpg);
-  height: 384px;
-  width: 20%;
+  display: flex;
+  padding: 25px;
+  min-height: 384px;
+  min-width: 287px;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -68,8 +77,7 @@ font-size: 4.5rem;
   font-size: 4.5rem;
 }
 
-#galeria-works .col-lg-3{
-  display: flex;
+#galeria-works .col-lg-3 {
   margin: 0 !important;
   padding: 25px;
 }
@@ -264,3 +272,29 @@ font-size: 4.5rem;
   top: 825px;
   padding-left: 165px;
 }
+
+.room-1 {
+  background: url(../img/room-1.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 320px;
+  width: 240px;
+  left: 0%;
+  top: 0;
+}
+
+.room-2 {
+  background: url(../img/room-2.png);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-left: 25px;
+  height: 320px;
+  width: 240px;
+  left: 0%;
+  top: 0;
+}
+
